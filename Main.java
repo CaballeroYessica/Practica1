@@ -10,7 +10,7 @@ class Main{
         }
         stdin.close();
 
-    Double sumaD = new Double(suma);
+    //Double sumaD = new Double(suma);
     //int sumaTemp = sumaD.intValue();
     int sumaTemp = (int)suma;
 
