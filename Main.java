@@ -10,9 +10,9 @@ class Main{
         }
         stdin.close();
 
-    //Double sumaD = new Double(suma);
-    //int sumaTemp = sumaD.intValue();
-    int sumaTemp = (int)suma;
+    Double sumaD = new Double(suma);
+    int sumaTemp = sumaD.intValue();
+    //int sumaTemp = (int)suma;
 
     if(suma-sumaTemp>0)
         System.out.println(suma);
