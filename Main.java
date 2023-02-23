@@ -12,7 +12,7 @@ class Main{
 
     //Double sumaD = new Double(suma);
     //int sumaTemp = sumaD.intValue();
-    /int sumaTemp = (int)suma;
+    int sumaTemp = (int)suma;
 
     if(suma-sumaTemp>0)
         System.out.println(suma);
